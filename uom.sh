@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pacman -S nmap openssh sshfs gparted rdesktop python wget screen ncdu gnu-netcat
+pacman -S nmap openssh sshfs gparted rdesktop python wget screen ncdu openbsd-netcat xfsprogs
 
 pacman -S exfat-utils ntfs-3g intel-ucode p7zip rsync unzip ddrescue testdisk gvfs-smb gvfs-nfs mlocate dosfstools tk minicom clamav
 
@@ -22,7 +22,7 @@ pacman -S xfce4 xfce4-goodies alacarte libcanberra pavucontrol
 
 pacman -S  nemo-share nemo-terminal nemo-python nemo-fileroller
 
-pacman -S  ttf-bitstream-vera ttf-liberation ttf-droid ttf-dejavu
+pacman -S  ttf-bitstream-vera ttf-liberation ttf-droid ttf-dejavu adobe-source-code-pro-fonts woff-fira-code
 
 pacman -S  networkmanager-vpnc networkmanager-pptp net-tools vpnc
 
